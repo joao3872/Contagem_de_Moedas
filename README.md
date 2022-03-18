@@ -29,4 +29,4 @@
 
 ### Experimente você mesmo:
 
-* <a href="https://joao3872.github.io/Contagem_de_Moedas/">Acesso a Página</a>
+* <a href="https://joao3872.github.io/Contagem_de_Moedas/" target="_blank">Acesso a Página</a>
