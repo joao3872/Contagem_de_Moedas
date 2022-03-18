@@ -20,7 +20,10 @@
     <header>
         <span class="logo">Contagem de Moedas</span>
 
-        <span class="fas fa-coins button_personalizar" onclick="abrirModal()">
+        <span 
+          class="fas fa-coins button_personalizar" 
+          onclick="abrirModal()"
+        >
         </span>
     </header>
 
@@ -35,9 +38,17 @@
                     
                     <span class="simbolo">R$</span>
 
-                    <input type="number" placeholder="Digite o Valor Total..." id="valor_total" onkeypress="if(this.value.length > 6) return false" />
+                    <input 
+                      type="number" 
+                      placeholder="Digite o Valor Total..." 
+                      id="valor_total" 
+                      onkeypress="if(this.value.length > 6) return false" 
+                    />
 
-                    <button class="btn_contar" onclick="contar()">
+                    <button 
+                      class="btn_contar" 
+                      onclick="contar()"
+                    >
                         Contar !
                     </button>
                 
@@ -52,22 +63,30 @@
                             </h4>
                         </li>
                         <li>
-                            Quantidade de moedas de 1 Real: <span id="um_real">0</span>
+                            Quantidade de moedas de 1 Real: 
+                            <span id="um_real">0</span>
+
                             <p class="real"></p>
                         </li>
                         <li>
-                            Quantidade de moedas de 50 Centavos: <span id="cinquenta_centavos">0</span>
+                            Quantidade de moedas de 50 Centavos: 
+                            <span id="cinquenta_centavos">0</span>
+
                             <p class="cinquenta"></p>
                         </li>
                         <li>
-                            Quantidade de moedas de 25 Centavos: <span id="vinte-e-cinco_centavos">0</span>
+                            Quantidade de moedas de 25 Centavos: 
+                            <span id="vinte-e-cinco_centavos">0</span>
+                            
                             <p class="vinteecinco"></p>
                         </li>
                         <li>
-                            Quantidade de moedas de 10 Centavos: <span id="dez_centavos">0</span>
+                            Quantidade de moedas de 10 Centavos: 
+                            <span id="dez_centavos">0</span>
                         </li>
                         <li>
-                            Quantidade de moedas de 5 Centavos: <span id="cinco_centavos">0</span>
+                            Quantidade de moedas de 5 Centavos: 
+                            <span id="cinco_centavos">0</span>
                         </li>
                     </ul>
                 </div>
@@ -77,9 +96,11 @@
     </main>
 
     <footer>
+
         <p>&copy; Criado por João Matheus !</p>
 
         <div class="button">
+
             <a 
               href="https://github.com/joao3872" 
               class="btn_github" 
@@ -88,21 +109,34 @@
                 <span class="fab fa-github"></span>
                     Meu GitHub
             </a>
+
         </div>
+
     </footer>
 
 
     <section class="container_modal">
+
         <div class="modal">
+
             <h3>Contagem de Duas Moedas</h3>
 
             <article class="container_valor2">
 
                 <span class="simbolo2">R$</span>
 
-                <input type="number" placeholder="Digite o Valor Total..." id="valor_input" onkeypress="if(this.value.length > 6) return false" onkeyup="numeroInteiro(this)" />
+                <input 
+                  type="number" 
+                  placeholder="Digite o Valor Total..." 
+                  id="valor_input" 
+                  onkeypress="if(this.value.length > 6) return false" 
+                  onkeyup="numeroInteiro(this)" 
+                />
 
-                <button class="btn_resultado" onclick="conte()">
+                <button 
+                  class="btn_resultado" 
+                  onclick="conte()"
+                >
                     Mostrar !
                 </button>
 
@@ -110,7 +144,9 @@
             
 
             <article class="checkboxs">
+
               <div class="parte-superior">
+
                 <input type="checkbox" id="check1" />
                 <label for="check1">1 Real</label>
 
@@ -119,15 +155,19 @@
 
                 <input type="checkbox" id="check3" />
                 <label for="check3">25 Centavos</label>
+
               </div>
 
               <div class="parte-inferior">
+
                 <input type="checkbox" id="check4" />
                 <label for="check4">10 Centavos</label>
 
                 <input type="checkbox" id="check5" />
                 <label for="check5">5 Centavos</label>
+
               </div>
+
             </article>
 
 
@@ -145,25 +185,50 @@
                 </ul>
             </div>
 
-            <span class="fas fa-arrow-left" onclick="fecharModal()"></span>
+            <span 
+              class="fas fa-arrow-left" 
+              onclick="fecharModal()"
+            >
+            </span>
         
         </div>
 
-        <span class="fas fa-question-circle ajuda" onmousemove="abrirAjuda()"></span>
+        <article class="fundo_ajuda">
 
-        <div class="container_ajuda" onmouseleave="fecharAjuda()">
-            <div class="scroll">
+            <span 
+              class="fas fa-question-circle ajuda" 
+              onmousemove="abrirAjuda()"
+            >
+            </span>
+
+            <div 
+              class="container_ajuda" 
+              onmouseleave="fecharAjuda()"
+            >
                 
-                <p>1 - Selecione duas moedas.</p>
+                <div class="scroll">
+                
+                    <p>
+                      1 - Selecione duas moedas.
+                    </p>
 
-                <p>2 - Caso, seja selecionada apenas uma moeda ou nenhuma, não terá uma resposta retornada.</p>
+                    <p>
+                      2 - Caso, seja selecionada apenas uma moeda ou nenhuma, não terá uma resposta retornada.
+                    </p>
 
-                <p>3 - Caso, seja selecionada mais de duas moedas, também não terá retorno.</p>
+                    <p>
+                      3 - Caso, seja selecionada mais de duas moedas, também não terá retorno.
+                    </p>
 
-                <p>4 - Os resultados mudará, de acordo com a moeda selecionada.</p>
+                    <p>
+                      4 - Os resultados mudará, de acordo com a moeda selecionada.
+                    </p>
             
+                </div>
+
             </div>
-        </div>
+
+        </article>
 
     </section>
     
