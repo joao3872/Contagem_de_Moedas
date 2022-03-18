@@ -273,8 +273,12 @@ footer .button .btn_github:hover {
         width: 200px;
     }
 
+    main .container .item .container_valor #valor_total {
+        margin-right: 35px;
+    }
+
     main .container .item .container_resultado {
-        width: 50%;
+        width: 90%;
     }
 
     .container_modal .modal {
