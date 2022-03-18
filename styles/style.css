@@ -275,6 +275,7 @@ footer .button .btn_github:hover {
 
     main .container .item .container_valor #valor_total {
         margin-right: 35px;
+        padding: 5px 0 0 2px;
     }
 
     main .container .item .container_resultado {
@@ -308,7 +309,7 @@ footer .button .btn_github:hover {
     }
 
     .container_modal .modal .checkboxs .parte-superior input, .parte-inferior input {
-        margin-left: 15px;
+        margin-left: 12px;
     }
 
     .container_modal .modal .resultado {
