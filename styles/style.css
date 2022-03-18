@@ -299,7 +299,7 @@ footer .button .btn_github:hover {
     }
 
     .container_modal .modal .checkboxs .parte-superior label {
-        margin-right: 8px;
+        margin-right: 6px;
     }
 
     .container_modal .modal .checkboxs .parte-superior, .parte-inferior {
@@ -310,7 +310,8 @@ footer .button .btn_github:hover {
     .container_modal .modal .checkboxs .parte-superior {
         margin: 25px 0;
         width: 100%;
-        justify-content: flex-start;
+        justify-content: flex-end;
+        background: red;
     }
 
     .container_modal .modal .checkboxs .parte-inferior {
