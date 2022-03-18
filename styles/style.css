@@ -311,8 +311,12 @@ footer .button .btn_github:hover {
         margin-bottom: 30px;
     }
 
-    .container_modal .modal .checkboxs .parte-superior input, .parte-inferior input {
-        margin-left: 12px;
+    .container_modal .modal .checkboxs .parte-superior input {
+        margin-left: 6px;
+    }
+
+    .container_modal .modal .checkboxs .parte-inferior input {
+        margin-left: 15px;
     }
 
     .container_modal .modal .resultado {
