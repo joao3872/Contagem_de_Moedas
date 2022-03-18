@@ -1,0 +1,333 @@
+main .container {
+    display: block;
+    width: 100%;
+    margin: 60px 0 110px 0;
+}
+
+main .container .item {
+    background: var(--cinza-transparent);
+    border-radius: 20px 0;
+    width: 65%;
+    padding: 20px;
+    box-shadow: 5px 5px 10px var(--black-transparent);
+    text-align: center;
+}
+
+main .container .item img {
+    width: 250px;
+    border: 2px dashed var(--white);
+    border-radius: 20px;
+}
+
+main .container .item .container_valor {
+    margin: 35px 0;
+}
+
+main .container .item .simbolo, #valor_total, .container_resultado, #valor_input, .simbolo2, .resultado {
+    border: 2px solid var(--orange-red);
+}
+
+main .container .item .container_valor .simbolo, .simbolo2 {
+    background: var(--white-transparent);
+    padding: 5px 3px 0 12px;
+    height: 30px;
+    border-radius: 20px 0 0 0;
+    border-right: none;
+}
+
+main .container .item .container_valor #valor_total, #valor_input {
+    width: 200px;
+    height: 30px;
+    margin-right: 45px;
+    padding: 2px;
+    background: var(--white-transparent);
+    border-radius: 0 0 20px 0;
+    border-left: none;
+}
+
+main .container .item .container_valor, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+main .container .item .container_valor, input[type=number]::-webkit-inner-spin-button {
+    appearance: none;
+}
+
+main .container .item .btn_contar, .btn_resultado {
+    background: transparent;
+    padding: 5px 10px 5px 10px;
+    border: 2px solid var(--white);
+    border-radius: 10px;
+    height: 30px;
+    color: var(--white);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+main .container .item .btn_contar:hover, .btn_resultado:hover {
+    background: var(--orange-red);
+}
+
+main .container .item, .container_resultado {
+    margin: auto;
+}
+
+main .container .item .container_valor, .container_resultado, .container_valor2, .checkboxs {
+    display: flex;
+    justify-content: center;
+}
+
+main .container .item .container_resultado, .resultado {
+    background: var(--white-transparent);
+    width: 450px;
+    line-height: 1.6;
+    padding: 10px;
+    border-radius: 0 20px;
+}
+
+main .container .item .simbolo, .simbolo2, #valor_total, #valor_input, footer p {
+    font-weight: bold;
+}
+
+footer {
+    background: var(--cinza-escuro);
+    padding: 20px;
+}
+
+footer p {
+    text-align: center;
+    color: var(--white);
+    font-weight: bold;
+}
+
+footer .button {
+    display: flex;
+    margin-top: 20px;
+}
+
+footer .button .btn_github {
+    background: transparent;
+    border: 2px solid var(--orange-red);
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+    color: var(--orange-red);
+    font: bold 12pt Arial;
+}
+
+footer .button .btn_github .fab {
+    margin-right: 5px;
+}
+
+footer .button .btn_github:hover {
+    background: var(--black);
+    border-color: var(--white);
+    color: var(--white);    
+}
+
+
+.container_modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background: var(--black-transparent);
+    overflow: hidden;
+    transition: .5s;
+    display: none;
+}
+
+.container_modal .modal {
+    background: var(--cinza-transparent);
+    width: 80%;
+    padding: 12px;
+    margin: auto;
+    margin-top: 22vh;
+    border-radius: 0 20px;
+}
+
+.container_modal .modal h3 {
+    text-align: center;
+    color: var(--white);
+    margin: 10px 0 40px 0;
+}
+
+.container_modal .modal .simbolo2 {
+    border-radius: 0 0 0 20px;
+}
+
+.container_modal .modal #valor_input {
+    border-radius: 0 20px 0 0;
+}
+
+.container_modal .modal .checkboxs {
+    display: flex;
+    margin: auto;
+    width: 95%;
+    margin-top: 35px;
+}
+
+.container_modal .modal .checkboxs input {
+    margin-left: 3px;
+}
+
+.container_modal .modal .checkboxs input, label, .fas {
+    cursor: pointer;
+}
+
+.container_modal .modal .checkboxs label {
+    margin: -2px 15px 0 10px;
+    font-weight: bold;
+}
+
+.container_modal .modal .checkboxs .parte-superior, .parte-inferior {
+    display: flex;
+}
+
+.container_modal .modal .resultado {
+    margin: auto;
+    width: 580px;
+    border-radius: 20px 0;
+    margin-top: 40px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.container_modal .modal .fas {
+    color: var(--orange-red);
+    font-size: 22px;
+    margin: 25px 0 10px 40px;
+    padding: 6px 15px;
+    border: 2px dashed var(--red);
+    border-radius: 0 20px;
+}
+
+.container_modal .modal .fas:hover {
+    border-color: var(--orange-red);
+    padding: 6px 10px;
+    color: var(--red);
+}
+
+.container_modal .ajuda {
+    position: absolute;
+    color: var(--green);
+    right: 35px;
+    bottom: 30px;
+    font-size: 50px;
+}
+
+.container_modal .container_ajuda {
+    position: absolute;
+    display: none;
+    right: 95px;
+    bottom: 20px;
+    box-shadow: 5px 5px 10px var(--black-transparent);
+    background: var(--white-transparent);
+    width: 350px;
+    height: 150px;
+    padding: 10px 8px 10px 10px;
+    line-height: 1.6;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.container_modal .container_ajuda .scroll {
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 130px;
+}
+
+.container_modal .container_ajuda .scroll::-webkit-scrollbar {
+    width: 10px;
+}
+
+.container_modal .container_ajuda .scroll::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px var(--cinza);
+    border-radius: 10px;
+}
+
+.container_modal .container_ajuda .scroll::-webkit-scrollbar-thumb {
+    background: var(--green);
+    border-radius: 10px;
+}
+
+.container_modal .container_ajuda .scroll::-webkit-scrollbar-thumb:hover {
+    background: var(--green-escuro);
+}
+
+
+
+@media screen and (max-width: 800px) {
+    main .container {
+        margin: 40px 0 90px 0;
+    }
+
+    main .container .item {
+        width: 95%;
+    }
+
+    main .container .item img {
+        width: 200px;
+    }
+
+    main .container .item .container_resultado {
+        width: 400px;
+    }
+
+    .container_modal .modal {
+        width: 95%;
+        margin-top: 15vh;
+    }
+
+    .container_modal .modal h3 {
+        margin: 5px 0 30px 0;
+    }
+
+    .container_modal .modal .checkboxs {
+        display: block;
+    }
+
+    .container_modal .modal .checkboxs .parte-superior, .parte-inferior {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container_modal .modal .checkboxs .parte-superior {
+        margin: 25px 0;
+    }
+
+    .container_modal .modal .checkboxs .parte-inferior {
+        margin-bottom: 30px;
+    }
+
+    .container_modal .modal .checkboxs .parte-superior input, .parte-inferior input {
+        margin-left: 15px;
+    }
+
+    .container_modal .modal .resultado {
+        width: 90%;
+    }
+
+    .container_modal .modal .fas {
+        margin-left: 20px;
+    }
+
+    .container_modal .ajuda {
+        right: 15px;
+        bottom: 40px;
+        font-size: 45px;
+    }
+
+    .container_modal .container_ajuda {
+        width: 300px;
+        height: 110px;
+        right: 70px;
+    }
+
+    .container_modal .container_ajuda .scroll {
+        height: 90px;
+    }
+}

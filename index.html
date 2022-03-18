@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contagem de Moedas</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/script.js"></script>
+    
+    <link rel="stylesheet" href="styles/global.css">
+    <script src="scripts/modal.js"></script>
+
+    <script src="scripts/script2.js"></script>
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+</head>
+<body>
+
+    <header>
+        <span class="logo">Contagem de Moedas</span>
+
+        <span class="fas fa-coins button_personalizar" onclick="abrirModal()">
+        </span>
+    </header>
+
+    <main>
+
+        <section class="container">
+            <div class="item">
+
+                <img src="imagens/moedas.png" alt="moedas" />
+
+                <article class="container_valor">
+                    
+                    <span class="simbolo">R$</span>
+
+                    <input type="number" placeholder="Digite o Valor Total..." id="valor_total" onkeypress="if(this.value.length > 6) return false" />
+
+                    <button class="btn_contar" onclick="contar()">
+                        Contar !
+                    </button>
+                
+                </article>
+        
+                <div class="container_resultado">
+                    <ul>
+                        <li>
+                            <h4>
+                                Valor Total em R$
+                                <span class="total">0.00</span>
+                            </h4>
+                        </li>
+                        <li>
+                            Quantidade de moedas de 1 Real: <span id="um_real">0</span>
+                            <p class="real"></p>
+                        </li>
+                        <li>
+                            Quantidade de moedas de 50 Centavos: <span id="cinquenta_centavos">0</span>
+                            <p class="cinquenta"></p>
+                        </li>
+                        <li>
+                            Quantidade de moedas de 25 Centavos: <span id="vinte-e-cinco_centavos">0</span>
+                            <p class="vinteecinco"></p>
+                        </li>
+                        <li>
+                            Quantidade de moedas de 10 Centavos: <span id="dez_centavos">0</span>
+                        </li>
+                        <li>
+                            Quantidade de moedas de 5 Centavos: <span id="cinco_centavos">0</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; Criado por João Matheus !</p>
+
+        <div class="button">
+            <a 
+              href="https://github.com/joao3872" 
+              class="btn_github" 
+              target="_blank"
+            >
+                <span class="fab fa-github"></span>
+                    Meu GitHub
+            </a>
+        </div>
+    </footer>
+
+
+    <section class="container_modal">
+        <div class="modal">
+            <h3>Contagem de Duas Moedas</h3>
+
+            <article class="container_valor2">
+
+                <span class="simbolo2">R$</span>
+
+                <input type="number" placeholder="Digite o Valor Total..." id="valor_input" onkeypress="if(this.value.length > 6) return false" onkeyup="numeroInteiro(this)" />
+
+                <button class="btn_resultado" onclick="conte()">
+                    Mostrar !
+                </button>
+
+            </article>
+            
+
+            <article class="checkboxs">
+              <div class="parte-superior">
+                <input type="checkbox" id="check1" />
+                <label for="check1">1 Real</label>
+
+                <input type="checkbox" id="check2" />
+                <label for="check2">50 Centavos</label>
+
+                <input type="checkbox" id="check3" />
+                <label for="check3">25 Centavos</label>
+              </div>
+
+              <div class="parte-inferior">
+                <input type="checkbox" id="check4" />
+                <label for="check4">10 Centavos</label>
+
+                <input type="checkbox" id="check5" />
+                <label for="check5">5 Centavos</label>
+              </div>
+            </article>
+
+
+            <div class="resultado">
+                <ul>
+                    <li>
+                        <h4>
+                            Valor Total em R$
+                            <span class="total2">0</span>
+                        </h4>
+                    </li>
+                    <li>
+                        <p class="res"></p>
+                    </li>
+                </ul>
+            </div>
+
+            <span class="fas fa-arrow-left" onclick="fecharModal()"></span>
+        
+        </div>
+
+        <span class="fas fa-question-circle ajuda" onmousemove="abrirAjuda()"></span>
+
+        <div class="container_ajuda" onmouseleave="fecharAjuda()">
+            <div class="scroll">
+                
+                <p>1 - Selecione duas moedas.</p>
+
+                <p>2 - Caso, seja selecionada apenas uma moeda ou nenhuma, não terá uma resposta retornada.</p>
+
+                <p>3 - Caso, seja selecionada mais de duas moedas, também não terá retorno.</p>
+
+                <p>4 - Os resultados mudará, de acordo com a moeda selecionada.</p>
+            
+            </div>
+        </div>
+
+    </section>
+    
+</body>
+</html>
