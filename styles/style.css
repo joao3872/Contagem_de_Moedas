@@ -337,7 +337,7 @@ footer .button .btn_github:hover {
     .container_modal .fundo_ajuda {
         position: absolute;
         top: 20px;
-        right: 70px;
+        right: 15px;
         background: purple;
         height: 125px;
     }
@@ -345,7 +345,7 @@ footer .button .btn_github:hover {
     .container_modal .fundo_ajuda .ajuda {
         position: absolute;
         top: 40px;
-        right: 15px;
+        /*right: 15px;*/
         cursor: default;
         font-size: 45px;
     }
@@ -353,8 +353,8 @@ footer .button .btn_github:hover {
     .container_modal .fundo_ajuda .container_ajuda {
         width: 300px;
         height: 110px;
-        /*top: 20px;
-        right: 70px;*/
+        /*top: 20px;*/
+        right: 70px;
     }
 
     .container_modal .fundo_ajuda .container_ajuda .scroll {
