@@ -334,7 +334,7 @@ footer .button .btn_github:hover {
     }
 
     .container_modal .ajuda {
-        position: relative;
+        position: fixed;
         right: 15px;
         bottom: 40px;
         font-size: 45px;
