@@ -25,7 +25,7 @@
 
 ### Versão Mobile 📱:
 
-<img src="imagens/contagem.gif" height="500px" width="260px" />
+<img src="imagens/versao-mobile.gif" height="500px" width="260px" />
 
 ### Experimente você mesmo:
 
