@@ -287,7 +287,7 @@ footer .button .btn_github:hover {
 
     .container_modal .modal {
         width: 95%;
-        margin-top: 21vh;
+        margin-top: 19vh;
         margin-bottom: 1vh;
     }
 
@@ -343,7 +343,7 @@ footer .button .btn_github:hover {
 
     .container_modal .fundo_ajuda .ajuda {
         position: absolute;
-        top: 15px;
+        top: 5px;
         right: 15px;
         cursor: default;
         font-size: 45px;
