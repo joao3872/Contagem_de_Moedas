@@ -273,7 +273,7 @@ footer .button .btn_github:hover {
         width: 200px;
     }
 
-    main .container .item .container_valor .simbolo {
+    main .container .item .container_valor .simbolo, .simbolo2 {
         padding: 4px 3px 0 12px;
     }
 
@@ -298,6 +298,10 @@ footer .button .btn_github:hover {
         display: block;
     }
 
+    .container_modal .modal .checkboxs label {
+        margin-right: 8px;
+    }
+
     .container_modal .modal .checkboxs .parte-superior, .parte-inferior {
         display: flex;
         justify-content: center;
@@ -312,7 +316,7 @@ footer .button .btn_github:hover {
     }
 
     .container_modal .modal .checkboxs .parte-superior input {
-        margin-left: 6px;
+        margin-left: 12px;
     }
 
     .container_modal .modal .checkboxs .parte-inferior input {
