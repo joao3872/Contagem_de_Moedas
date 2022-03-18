@@ -285,9 +285,14 @@ footer .button .btn_github:hover {
         width: 90%;
     }
 
+    main .container .item .container_valor .btn_contar, .btn_github, .btn_resultado, 
+    .container_modal .modal .fas {
+        cursor: default;
+    }
+
     .container_modal .modal {
         width: 95%;
-        margin-top: 19vh;
+        margin-top: 18vh;
         margin-bottom: 1vh;
     }
 
@@ -345,7 +350,7 @@ footer .button .btn_github:hover {
         position: absolute;
         top: 5px;
         right: 15px;
-        cursor: default;
+        /*cursor: default;*/
         font-size: 45px;
     }
 
