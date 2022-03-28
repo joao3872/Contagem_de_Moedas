@@ -27,6 +27,10 @@
 
 <img src="imagens/versao-mobile.gif" height="500px" width="260px" />
 
+### Versão Desktop 💻:
+
+<img src="imagens/desktop_Moedas.gif" />
+
 ### Experimente você mesmo:
 
 * <a href="https://joao3872.github.io/Contagem_de_Moedas/" target="_blank">Acesso a Página</a>
