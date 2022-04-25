@@ -48,6 +48,7 @@ main .container .item .container_valor #valor_total, #valor_input, #valor {
 main .container .item .container_valor #valor {
     border-radius: 0 20px;
     font-weight: bold;
+    border-left: initial;
 }
 
 main .container .item .container_valor, input:focus {
