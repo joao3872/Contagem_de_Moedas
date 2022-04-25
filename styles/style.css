@@ -1,7 +1,7 @@
 main .container {
     display: block;
     width: 100%;
-    margin: 60px 0 110px 0;
+    margin: 60px 0 90px 0;
 }
 
 main #container-unidades {
@@ -105,7 +105,7 @@ main .container .item .simbolo, .simbolo2, #valor_total, #valor_input, footer p 
 main .container-revelar {
     font-weight: bold;
     margin: auto;
-    margin-bottom: 25px;
+    margin-bottom: 45px;
 }
 
 main .container-revelar p {
@@ -284,7 +284,7 @@ footer .button .btn_github:hover {
 
 @media screen and (max-width: 800px) {
     main .container {
-        margin: 40px 0 90px 0;
+        margin: 40px 0 70px 0;
     }
 
     main .container .item {
