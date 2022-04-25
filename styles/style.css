@@ -105,6 +105,7 @@ main .container .item .simbolo, .simbolo2, #valor_total, #valor_input, footer p 
 main .container-revelar {
     font-weight: bold;
     margin: auto;
+    margin-bottom: 25px;
 }
 
 main .container-revelar p {
