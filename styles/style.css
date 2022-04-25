@@ -104,6 +104,7 @@ main .container .item .simbolo, .simbolo2, #valor_total, #valor_input, footer p 
 
 main .container-revelar {
     font-weight: bold;
+    margin: auto;
 }
 
 main .container-revelar p {
@@ -308,6 +309,10 @@ footer .button .btn_github:hover {
     main .container .item .container_valor .btn_contar, .btn_github, .btn_resultado, 
     .container_modal .modal .fas, .ajuda {
         cursor: default;
+    }
+
+    main .container-revelar {
+        width: 380px;
     }
 
     .container_modal .modal {
