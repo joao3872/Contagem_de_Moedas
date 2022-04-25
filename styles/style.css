@@ -86,7 +86,7 @@ main .container .item .container_resultado, .resultado {
     border-radius: 0 20px;
 }
 
-main .container .item .simbolo, .simbolo2, #valor_total, #valor_input, footer p {
+main .container .item .simbolo, .simbolo2, #valor_total, #valor_input, #valor, footer p {
     font-weight: bold;
 }
 
