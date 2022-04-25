@@ -93,6 +93,64 @@
             </div>
         </section>
 
+
+
+        <section class="container" id="container-unidades">
+            <div class="item">
+
+                <img src="imagens/moedas.png" alt="moedas" />
+
+                <article class="container_valor">
+
+                    <input 
+                      type="number" 
+                      placeholder="Digite a quantidade de Moedas..." 
+                      id="valor" 
+                      onkeypress="if(this.value.length > 6) return false" 
+                    />
+
+                    <button 
+                      class="btn_contar" 
+                      onclick="contarUnidades()"
+                    >
+                        Calcular !
+                    </button>
+                
+                </article>
+        
+                <div class="container_resultado">
+                    <ul>
+                        <li>
+                            <h4>
+                                Quantidade de Moedas:
+                                <span class="unidades">0</span>
+                            </h4>
+                        </li>
+                        <li>
+                            Valor em Reais, com moedas de 1 Real: 
+                            <span id="unidade_real">R$ 0.00</span>
+                        </li>
+                        <li>
+                            Valor em Reais, com moedas de 50 Centavos: 
+                            <span id="unidade_cinquenta">R$ 0.00</span>
+                        </li>
+                        <li>
+                            Valor em Reais, com moedas de 25 Centavos: 
+                            <span id="unidade_vinte-e-cinco">R$ 0.00</span>
+                        </li>
+                        <li>
+                            Valor em Reais, com moedas de 10 Centavos: 
+                            <span id="unidade_dez">R$ 0.00</span>
+                        </li>
+                        <li>
+                            Valor em Reais, com moedas de 5 Centavos: 
+                            <span id="unidade_cinco">R$ 0.00</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <footer>
