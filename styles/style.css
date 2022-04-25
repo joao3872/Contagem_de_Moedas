@@ -23,7 +23,7 @@ main .container .item .container_valor {
     margin: 35px 0;
 }
 
-main .container .item .simbolo, #valor_total, .container_resultado, #valor_input, .simbolo2, .resultado {
+main .container .item .simbolo, #valor_total, .container_resultado, #valor_input, .simbolo2, .resultado, #valor {
     border: 2px solid var(--orange-red);
 }
 
@@ -35,7 +35,7 @@ main .container .item .container_valor .simbolo, .simbolo2 {
     border-right: none;
 }
 
-main .container .item .container_valor #valor_total, #valor_input {
+main .container .item .container_valor #valor_total, #valor_input, #valor {
     width: 200px;
     height: 30px;
     margin-right: 45px;
