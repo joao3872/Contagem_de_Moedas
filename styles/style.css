@@ -8,7 +8,7 @@ main #container-unidades {
     display: none;
 }
 
-main .container .item {
+main .container .item, .container-revelar {
     background: var(--cinza-transparent);
     border-radius: 20px 0;
     width: 65%;
@@ -99,6 +99,15 @@ main .container .item .container_resultado, .resultado {
 
 main .container .item .simbolo, .simbolo2, #valor_total, #valor_input, footer p {
     font-weight: bold;
+}
+
+
+main .container-revelar {
+    font-weight: bold;
+}
+
+main .container-revelar p {
+    margin-bottom: 12px;
 }
 
 footer {
