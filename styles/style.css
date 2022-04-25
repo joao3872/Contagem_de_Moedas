@@ -45,6 +45,11 @@ main .container .item .container_valor #valor_total, #valor_input, #valor {
     border-left: none;
 }
 
+main .container .item .container_valor #valor {
+    border-radius: 0 20px;
+    font-weight: bold;
+}
+
 main .container .item .container_valor, input:focus {
     box-shadow: 0 0 0 0;
     outline: 0;
@@ -86,7 +91,7 @@ main .container .item .container_resultado, .resultado {
     border-radius: 0 20px;
 }
 
-main .container .item .simbolo, .simbolo2, #valor_total, #valor_input, #valor, footer p {
+main .container .item .simbolo, .simbolo2, #valor_total, #valor_input, footer p {
     font-weight: bold;
 }
 
