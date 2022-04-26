@@ -35,7 +35,7 @@
 
 ### Retorno em Reais de cada Moeda:
 
-<img src="imagens/calculo_unidade.gif" height="500px" width="260px" />
+<img src="imagens/contagem_unidades.gif" height="500px" width="260px" />
 
 ### Experimente você mesmo:
 
