@@ -8,7 +8,7 @@
 
 * Retorna a diferença de Centavos entre as moedas de 1 real, 50 Centavos e 25 centavos, quando o valor digitado no input é um número Real / Flutuante.
 
-* E possui um checkbox para ativar / desativar, o cálculo do valor em Reais de cada Moeda. De acordo, com a quantidade de moedas informadas no input.
+* E possui um checkbox, no qual, faz a chamada de uma função, que permite o cálculo do valor em Reais de cada Moeda. De acordo, com o valor informado no input.
 
 ### Sobre a Modal:
 
