@@ -40,8 +40,7 @@ header .logo {
 header .button_personalizar {
     float: right;
     border: 2px solid var(--white);
-    /*color: var(--goldenrod);*/
-    height: 20px;
+    color: var(--goldenrod);
     padding: 6px 8px 6px 8px;
     border-radius: 8px;
     cursor: pointer;
