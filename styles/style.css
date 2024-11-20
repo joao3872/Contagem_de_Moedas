@@ -125,7 +125,6 @@ footer p {
 
 footer .button {
     display: flex;
-    align-items: center;
     margin-top: 20px;
 }
 
@@ -137,6 +136,8 @@ footer .button .btn_github {
     border-radius: 20px;
     color: var(--orange-red);
     font: bold 12pt Arial;
+    display: flex;
+    align-items: center;
 }
 
 footer .button .btn_github .fab {
