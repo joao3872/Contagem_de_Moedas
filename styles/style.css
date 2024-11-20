@@ -140,12 +140,18 @@ footer .button .btn_github {
 
 footer .button .btn_github .fab {
     margin-right: 5px;
+    height: 30px;
 }
 
 footer .button .btn_github:hover {
     background: var(--black);
     border-color: var(--white);
-    color: var(--white);    
+    color: var(--white);
+    fill: var(--white);
+}
+
+footer .button .btn_github .fab:hover {
+    fill: var(--white);
 }
 
 
@@ -219,8 +225,7 @@ footer .button .btn_github:hover {
 }
 
 .container_modal .modal .fas {
-    color: var(--orange-red);
-    font-size: 22px;
+    height: 38px;
     margin: 25px 0 10px 40px;
     padding: 6px 15px;
     border: 2px dashed var(--red);
@@ -230,15 +235,14 @@ footer .button .btn_github:hover {
 .container_modal .modal .fas:hover {
     border-color: var(--orange-red);
     padding: 6px 10px;
-    color: var(--red);
+    fill: var(--red);
 }
 
 .container_modal .ajuda {
     position: absolute;
-    color: var(--green);
     right: 35px;
     bottom: 30px;
-    font-size: 50px;
+    height: 55px;
 }
 
 .container_modal .container_ajuda {
@@ -376,7 +380,7 @@ footer .button .btn_github:hover {
         position: absolute;
         top: 5px;
         right: 15px;
-        font-size: 45px;
+        height: 50px;
     }
 
     .container_modal .fundo_ajuda .container_ajuda {
