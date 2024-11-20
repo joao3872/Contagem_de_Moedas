@@ -125,6 +125,7 @@ footer p {
 
 footer .button {
     display: flex;
+    align-items: center;
     margin-top: 20px;
 }
 
