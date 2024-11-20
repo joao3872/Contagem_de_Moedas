@@ -40,14 +40,15 @@ header .logo {
 header .button_personalizar {
     float: right;
     border: 2px solid var(--white);
-    color: var(--goldenrod);
-    padding: 6px 8px 6px 8px;
+    height: 20px;
+    padding: 6px 8px 8px 8px;
     border-radius: 8px;
     cursor: pointer;
 }
 
 header .button_personalizar:hover {
     border-color: var(--goldenrod);
+    fill: #fff;
 }
 
 body {
