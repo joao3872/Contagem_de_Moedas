@@ -59,3 +59,32 @@ function contar() {
         }
     }
 }
+
+
+
+
+let btnGithub = document.querySelector('.btn_github')
+
+let iconGithub = document.querySelector('.fab')
+
+function iconGitHub() {
+    btnGithub.addEventListener('mouseenter', () => {
+        iconGithub.setAttribute('src', 'imagens/github-brands2.svg')
+    })
+
+    btnGithub.addEventListener('mouseleave', () => {
+        iconGithub.setAttribute('src', 'imagens/github-brands-solid.svg')
+    })
+
+    btnGithub.addEventListener('touchstart', () => {
+        iconGithub.setAttribute('src', 'imagens/github-brands2.svg')
+    })
+
+    btnGithub.addEventListener('touchend', () => {
+        setTimeout(() => {
+            iconGithub.setAttribute('src', 'imagens/github-brands-solid.svg')
+        }, 3000)
+    })
+}
+
+iconGitHub()
