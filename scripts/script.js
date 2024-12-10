@@ -70,19 +70,31 @@ let iconGithub = document.querySelector('.fab')
 function iconGitHub() {
     btnGithub.addEventListener('mouseenter', () => {
         iconGithub.setAttribute('src', 'imagens/github-brands2.svg')
+        btnGithub.style.background = 'var(--black)'
+        btnGithub.style.borderColor = 'var(--white)'
+        btnGithub.style.color = 'var(--white)'
     })
 
     btnGithub.addEventListener('mouseleave', () => {
         iconGithub.setAttribute('src', 'imagens/github-brands-solid.svg')
+        btnGithub.style.background = 'none'
+        btnGithub.style.borderColor = 'var(--orange-red)'
+        btnGithub.style.color = 'var(--orange-red)'
     })
 
     btnGithub.addEventListener('touchstart', () => {
         iconGithub.setAttribute('src', 'imagens/github-brands2.svg')
+        btnGithub.style.background = 'var(--black)'
+        btnGithub.style.borderColor = 'var(--white)'
+        btnGithub.style.color = 'var(--white)'
     })
 
     btnGithub.addEventListener('touchend', () => {
         setTimeout(() => {
             iconGithub.setAttribute('src', 'imagens/github-brands-solid.svg')
+            btnGithub.style.background = 'none'
+            btnGithub.style.borderColor = 'var(--orange-red)'
+            btnGithub.style.color = 'var(--orange-red)'
         }, 3000)
     })
 }
