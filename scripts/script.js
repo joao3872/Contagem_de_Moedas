@@ -63,7 +63,7 @@ function contar() {
 
 
 
-let btnGithub = document.querySelector('.button')
+let btnGithub = document.querySelector('.btn_github')
 
 let iconGithub = document.querySelector('.fab')
 
